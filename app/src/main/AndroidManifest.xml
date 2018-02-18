@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.android.megamendungfood">
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+
+		<activity android:name=".MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".MainActivity_Menu" />
+
+		<activity android:name=".MainActivity_Dinnerin"
+			android:parentActivityName="com.example.android.megamendungfood.MainActivity_Dinnerin">
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".MainActivity_Dinnerin"/>
+
+		</activity>
+
+		<activity android:name=".MainActivity_Takeaway"
+			android:parentActivityName="com.example.android.megamendungfood.MainActivity_Takeaway">
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".MainActivity_Takeaway"/>
+
+		</activity>
+
+		<activity android:name=".MainActivity_Content"
+			android:parentActivityName="com.example.android.megamendungfood.MainActivity_Content">
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".MainActivity_Content"/>
+
+		</activity>
+
+		<activity android:name=".MainActivity_Detail"
+
+			android:parentActivityName="com.example.android.megamendungfood.MainActivity_Detail">
+
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".MainActivity_Detail"/>
+
+		</activity>
+
+	</application>
+</manifest>

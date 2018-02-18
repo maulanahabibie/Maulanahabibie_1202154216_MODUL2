@@ -1,0 +1,23 @@
+<resources>
+	<string name="app_name">Mega Mendung Food</string>
+
+	<string-array name="menu">
+		<item>Pilih Meja</item>
+		<item>Meja 1</item>
+		<item>Meja 2</item>
+		<item>Meja 3</item>
+		<item>Meja 4</item>
+		<item>Meja 5</item>
+	</string-array>
+
+	<string name="docang">Lontong, Toge, Daun Singkong, Kelapa Parut</string>
+	<string name="empal">Daging, Bumbu Empal, Bawang Goreng, Daun Bawang</string>
+	<string name="jamblang">Nasi, Ati Ampela, Tempe, Paru</string>
+	<string name="ketoprak">Lontonng, Bihun, Toge, Telur</string>
+	<string name="krupuk">Krupuk, sambal</string>
+	<string name="lengko">Nasi, Bumbu Kacang, Toge, Tempe, Tahu, Bawang Goreng</string>
+	<string name="mie">Mie Buatan, Telur, Kuah Mie, Toge</string>
+	<string name="sate">Sate Kerbau</string>
+	<string name="tahu">Tahu, Kecap Buatan, Bawang + Cabai</string>
+
+</resources>

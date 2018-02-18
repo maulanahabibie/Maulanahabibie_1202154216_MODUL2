@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.android.megamendungfood.MainActivity_Takeaway">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Take Away"
+		android:textAlignment="center"
+		android:textColor="@android:color/background_dark"
+		android:textSize="18sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:fontFamily="monospace"
+		android:text="Pesanan"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_red_dark"
+		android:textSize="30sp"
+		android:textStyle="bold" />
+
+	<EditText
+		android:id="@+id/TNama"
+		android:layout_gravity="center"
+		android:layout_width="200dp"
+		android:hint="Nama"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"/>
+	<EditText
+		android:id="@+id/TPhone"
+		android:hint="No. Telp"
+		android:layout_gravity="center"
+		android:layout_width="200dp"
+		android:inputType="phone"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"/>
+	<EditText
+		android:id="@+id/TAlamat"
+		android:hint="Alamat"
+		android:layout_gravity="center"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp" />
+	<Button
+		android:onClick="mesan"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:background="#FF0000"
+		android:textColor="#fff"
+		android:padding="7dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Pilih Pesanan"/>
+
+</LinearLayout>
